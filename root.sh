@@ -11,7 +11,7 @@ read -p "Please Input an New Password For Root : " Pass
 
 # Starting Changes To Root
 rm -f /etc/ssh/sshd_config
-wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/hesoyam-oke/root/main/sshd
+wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/ADITYAH2/tes1/main/sshd
 echo -e "$Pass\n$Pass\n"|passwd root &> /dev/null
 geo=$(wget -qO- ifconfig.co);
 
