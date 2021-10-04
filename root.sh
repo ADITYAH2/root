@@ -18,11 +18,11 @@ IPANDA=$(wget -qO- ifconfig.co);
 # Successful
 clear
 echo "Please Save This VPS Account Information" | lolcat
-echo "============================================" lolcat
-echo "  IP ADDRESS = $IPANDA"
-echo "  Username   = root"
-echo "  Password   = $Pass"
-echo "============================================" lolcat
+echo "============================================" | lolcat
+echo "  IP ADDRESS = $IPANDA" | lolcat
+echo "  Username   = root" | lolcat
+echo "  Password   = $Pass" | lolcat
+echo "============================================" | lolcat
 echo ""
 #echo "VPS Will Rebooting On 5 Second !!!!!"
 
