@@ -31,7 +31,7 @@ echo -e  "  ══════════════════════�
 echo -e "${bl}"
 read -p "     [#]  Masukkan Nomor :  " noo
 echo -e "${off}"
-zgsgkshkdluduldlydlydyldlydyldyldyldlydykxhkxmhxhkxkhdhldlhdhlxuldulduldulduldulduldududulduldulduldulduldulduld
+
 case $noo in
 1)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
