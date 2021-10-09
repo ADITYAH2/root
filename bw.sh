@@ -9,7 +9,7 @@ op='\e[35m'
 or='\033[1;33m'
 bd='\e[1m'
 clear
-
+figlet VNSTAT | lolcat -d 5
 echo -e ""
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║                       ┃BANDWITH MONITOR┃                 ║" |lolcat
@@ -34,6 +34,7 @@ echo -e "${off}"
 clear
 case $noo in
 1)
+figlet VNSTAT | lolcat -d 5
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║            ┃TOTAL BANDWITH SERVER TERSISA┃               ║" |lolcat
 echo -e   "  ╚══════════════════════════════════════════════════════════╝" | lolcat
@@ -47,6 +48,7 @@ echo -e "$baris2" | lolcat
 ;;
 
 2)
+figlet VNSTAT | lolcat -d 5
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║         ┃PENGGUNAAN BANDWITH SETIAP 5 MENIT┃             ║" |lolcat
 echo -e   "  ╚══════════════════════════════════════════════════════════╝" | lolcat
@@ -60,6 +62,7 @@ echo -e "$baris2" | lolcat
 ;;
 
 3)
+figlet VNSTAT | lolcat -d 5
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║         ┃PENGGUNAAN BANDWITH SETIAP JAM┃                 ║" |lolcat
 echo -e   "  ╚══════════════════════════════════════════════════════════╝" | lolcat
@@ -73,6 +76,7 @@ echo -e "$baris2" | lolcat
 ;;
 
 4)
+figlet VNSTAT | lolcat -d 5
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║        ┃PENGGUNAAN BANDWITH SETIAP HARI                  ║" |lolcat
 echo -e   "  ╚══════════════════════════════════════════════════════════╝" | lolcat
@@ -86,6 +90,7 @@ echo -e "$baris2" | lolcat
 ;;
 
 5)
+figlet VNSTAT | lolcat -d 5
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║        ┃PENGGUNAAN BANDWITH SETIAP BULAN┃                ║" |lolcat
 echo -e   "  ╚══════════════════════════════════════════════════════════╝" | lolcat
@@ -99,6 +104,7 @@ echo -e "$baris2" | lolcat
 ;;
 
 6)
+figlet VNSTAT | lolcat -d 5
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║        ┃PENGGUNAAN BANDWITH SETIAP TAHUN┃                ║" |lolcat
 echo -e   "  ╚══════════════════════════════════════════════════════════╝" | lolcat
@@ -112,6 +118,7 @@ echo -e "$baris2" | lolcat
 ;;
 
 7)
+figlet VNSTAT | lolcat -d 5
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║        ┃PENGGUNAAN BANDWITH TERTINGGI┃                   ║" |lolcat
 echo -e   "  ╚══════════════════════════════════════════════════════════╝" | lolcat
@@ -125,6 +132,7 @@ echo -e "$baris2" | lolcat
 ;;
 
 8)
+figlet VNSTAT | lolcat -d 5
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║     ┃GRAFIK BANDWITH TERPAKAI SETIAP JAM                 ║" |lolcat
 echo -e   "  ╚══════════════════════════════════════════════════════════╝" | lolcat
@@ -138,6 +146,7 @@ echo -e "$baris2" | lolcat
 ;;
 
 9)
+figlet VNSTAT | lolcat -d 5
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║        ┃LIVE PENGGUNAAN BANDWITH SAAT INI┃              ║" |lolcat
 echo -e   "  ╚══════════════════════════════════════════════════════════╝" | lolcat
@@ -152,6 +161,7 @@ echo -e "$baris2" | lolcat
 ;;
 
 10)
+figlet VNSTAT | lolcat -d 5
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║        ┃LIVE TRAFIK PENGGUNAAN BANDWITH┃               ║" |lolcat
 echo -e   "  ╚══════════════════════════════════════════════════════════╝" | lolcat
