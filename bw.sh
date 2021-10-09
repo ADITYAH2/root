@@ -11,9 +11,9 @@ bd='\e[1m'
 clear
 
 echo -e ""
-echo -e "${mg}======================================${off}"
-echo -e        "           BANDWITH MONITOR " | lolcat
-echo -e "${mg}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃BANDWITH MONITOR┃                     ║" |lolcat
+echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 echo -e "     \e[m$bd 1$bl]\e[m$bd Lihat Total Bandwith Tersisa"
 echo -e "     \e[m$bd 2$bl]\e[m$bd Tabel Penggunaan Setiap 5 Menit"
@@ -27,140 +27,140 @@ echo -e "     \e[m$bd 9$bl]\e[m$bd Lihat Penggunaan Aktif Saat Ini"
 echo -e "    \e[m$bd 10$bl]\e[m$bd Lihat Trafik Penggunaan Aktif Saat Ini [5s]"
 echo -e "     x =>   Keluar"
 echo -e "${off}"
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "${bl}"
 read -p "     [#]  Masukkan Nomor :  " noo
 echo -e "${off}"
-
+zgsgkshkdluduldlydlydyldlydyldyldyldlydykxhkxmhxhkxkhdhldlhdhlxuldulduldulduldulduldududulduldulduldulduldulduld
 case $noo in
 1)
-echo -e "${mg}======================================${off}"
-echo -e "    TOTAL BANDWITH SERVER TERSISA" | lolcat
-echo -e "${mg}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃TOTAL BANDWITH SERVER TERSISA┃                     ║" |lolcat
+echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
 vnstat
 
 echo -e ""
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "$baris2" | lolcat
 ;;
 
 2)
-echo -e "${mg}======================================${off}"
-echo -e "  PENGGUNAAN BANDWITH SETIAP 5 MENIT" | lolcat
-echo -e "${mg}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃PENGGUNAAN BANDWITH SETIAP 5 MENIT┃                     ║" |lolcat
+echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
 vnstat -5
 
 echo -e ""
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "$baris2" | lolcat
 ;;
 
 3)
-echo -e "${mg}======================================${off}"
-echo -e "    PENGGUNAAN BANDWITH SETIAP JAM" | lolcat
-echo -e "${mg}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃PENGGUNAAN BANDWITH SETIAP JAM┃                     ║" |lolcat
+echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
 vnstat -h
 
 echo -e ""
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "$baris2" | lolcat
 ;;
 
 4)
-echo -e "${mg}======================================${off}"
-echo -e "   PENGGUNAAN BANDWITH SETIAP HARI" | lolcat
-echo -e "${mg}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃PENGGUNAAN BANDWITH SETIAP HARI┃                     ║" |lolcat
+echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
 vnstat -d
 
 echo -e ""
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "$baris2" | lolcat
 ;;
 
 5)
-echo -e "${mg}======================================${off}"
-echo -e "   PENGGUNAAN BANDWITH SETIAP BULAN" | lolcat
-echo -e "${red}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃PENGGUNAAN BANDWITH SETIAP BULAN┃                     ║" |lolcat
+echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
 vnstat -m
 
 echo -e ""
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "$baris2" | lolcat
 ;;
 
 6)
-echo -e "${mg}======================================${off}"
-echo -e "   PENGGUNAAN BANDWITH SETIAP TAHUN" | lolcat
-echo -e "${mg}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃PENGGUNAAN BANDWITH SETIAP TAHUN┃                     ║" |lolcat
+echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
 vnstat -y
 
 echo -e ""
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "$baris2" | lolcat
 ;;
 
 7)
-echo -e "${mg}======================================${off}"
-echo -e "    PENGGUNAAN BANDWITH TERTINGGI" | lolcat
-echo -e "${mg}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃PENGGUNAAN BANDWITH TERTINGGI┃                     ║" |lolcat
+echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
 vnstat -t
 
 echo -e ""
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "$baris2" | lolcat
 ;;
 
 8)
-echo -e "${mg}======================================${off}"
-echo -e " GRAFIK BANDWITH TERPAKAI SETIAP JAM" | lolcat
-echo -e "${mg}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃GRAFIK BANDWITH TERPAKAI SETIAP JAM┃                     ║" |lolcat
+echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
 vnstat -hg
 
 echo -e ""
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "$baris2" | lolcat
 ;;
 
 9)
-echo -e "${mg}======================================${off}"
-echo -e "  LIVE PENGGUNAAN BANDWITH SAAT INI" | lolcat
-echo -e "${mg}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃LIVE PENGGUNAAN BANDWITH SAAT INI┃                     ║" |lolcat
+echo -e   " ╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e " ${white}CTRL+C Untuk Keluar!${off}"
 echo -e ""
 
 vnstat -l
 
 echo -e ""
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "$baris2" | lolcat
 ;;
 
 10)
-echo -e "${mg}======================================${off}"
-echo -e "   LIVE TRAFIK PENGGUNAAN BANDWITH " | lolcat
-echo -e "${mg}======================================${off}"
+echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                       ┃LIVE TRAFIK PENGGUNAAN BANDWITH┃                     ║" |lolcat
+echo -e   " ╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
 vnstat -tr
 
 echo -e ""
-echo -e "${mg}======================================${off}"
+echo -e  "  ══════════════════════════════════════════════════════════" | lolcat
 echo -e "$baris2" | lolcat
 ;;
 
