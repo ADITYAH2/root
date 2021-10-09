@@ -12,7 +12,7 @@ clear
 
 echo -e ""
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃BANDWITH MONITOR┃                     ║" |lolcat
+echo -e  "  ║                       ┃BANDWITH MONITOR┃                 ║" |lolcat
 echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 echo -e "     \e[m$bd 1$bl]\e[m$bd Lihat Total Bandwith Tersisa"
@@ -35,7 +35,7 @@ echo -e "${off}"
 case $noo in
 1)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃TOTAL BANDWITH SERVER TERSISA┃                     ║" |lolcat
+echo -e  "  ║            ┃TOTAL BANDWITH SERVER TERSISA┃               ║" |lolcat
 echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
@@ -48,7 +48,7 @@ echo -e "$baris2" | lolcat
 
 2)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃PENGGUNAAN BANDWITH SETIAP 5 MENIT┃                     ║" |lolcat
+echo -e  "  ║         ┃PENGGUNAAN BANDWITH SETIAP 5 MENIT┃             ║" |lolcat
 echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
@@ -61,7 +61,7 @@ echo -e "$baris2" | lolcat
 
 3)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃PENGGUNAAN BANDWITH SETIAP JAM┃                     ║" |lolcat
+echo -e  "  ║         ┃PENGGUNAAN BANDWITH SETIAP JAM┃                 ║" |lolcat
 echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
@@ -74,7 +74,7 @@ echo -e "$baris2" | lolcat
 
 4)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃PENGGUNAAN BANDWITH SETIAP HARI┃                     ║" |lolcat
+echo -e  "  ║        ┃PENGGUNAAN BANDWITH SETIAP HARI                  ║" |lolcat
 echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
@@ -87,7 +87,7 @@ echo -e "$baris2" | lolcat
 
 5)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃PENGGUNAAN BANDWITH SETIAP BULAN┃                     ║" |lolcat
+echo -e  "  ║        ┃PENGGUNAAN BANDWITH SETIAP BULAN┃                ║" |lolcat
 echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
@@ -100,7 +100,7 @@ echo -e "$baris2" | lolcat
 
 6)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃PENGGUNAAN BANDWITH SETIAP TAHUN┃                     ║" |lolcat
+echo -e  "  ║        ┃PENGGUNAAN BANDWITH SETIAP TAHUN┃                ║" |lolcat
 echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
@@ -113,7 +113,7 @@ echo -e "$baris2" | lolcat
 
 7)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃PENGGUNAAN BANDWITH TERTINGGI┃                     ║" |lolcat
+echo -e  "  ║        ┃PENGGUNAAN BANDWITH TERTINGGI┃                   ║" |lolcat
 echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
@@ -126,7 +126,7 @@ echo -e "$baris2" | lolcat
 
 8)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃GRAFIK BANDWITH TERPAKAI SETIAP JAM┃                     ║" |lolcat
+echo -e  "  ║     ┃GRAFIK BANDWITH TERPAKAI SETIAP JAM                 ║" |lolcat
 echo -e   "  \e[1;32m╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
