@@ -139,7 +139,7 @@ echo -e "$baris2" | lolcat
 
 9)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃LIVE PENGGUNAAN BANDWITH SAAT INI┃                     ║" |lolcat
+echo -e  "  ║        ┃LIVE PENGGUNAAN BANDWITH SAAT INI┃                         ║" |lolcat
 echo -e   " ╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e " ${white}CTRL+C Untuk Keluar!${off}"
 echo -e ""
@@ -153,7 +153,7 @@ echo -e "$baris2" | lolcat
 
 10)
 echo -e  "  ╔══════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                       ┃LIVE TRAFIK PENGGUNAAN BANDWITH┃                     ║" |lolcat
+echo -e  "  ║        ┃LIVE TRAFIK PENGGUNAAN BANDWITH┃                           ║" |lolcat
 echo -e   " ╚══════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 
