@@ -1,17 +1,4 @@
 #!/bin/bash
-# Author: Philip J. Kazanjian * Boston MA * 08/21/2020 *
-# Src: * http://thekettlemaker.com/progressbar.html * https://github.com/PKazanjian/progressbar *
-# Desc: A progressbar used to track the progress of 22 containers starting and when 17 APIs are ready
-# Ack: ProgressBar function, fork of Teddy Skarin * https://github.com/fearside/ProgressBar/ *
-#
-_f100=39
-_current=0 i=0 j=0 k=0 x=75 y=22 z=5
-_spin="┤┘┴└├┌┬┐"
-declare a b
-echo ""
-printf '\e[1;34m%-6s\e[m' "Spawning Containers"
-echo "
-"
 if [ ! -e /root/domain ]; then
 domin=$(cat /etc/v2ray/domain)
 else
