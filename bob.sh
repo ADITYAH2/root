@@ -12,7 +12,6 @@ echo ""
 printf '\e[1;34m%-6s\e[m' "Spawning Containers"
 echo "
 "
-#!/bin/bash
 if [ ! -e /root/domain ]; then
 domin=$(cat /etc/v2ray/domain)
 else
