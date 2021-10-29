@@ -7,7 +7,7 @@ clear
 rm -f root.sh
 
 # Get Passwd
-read -p "Please Input an New Password For Root : " Pass
+read -p "Tolong Input Password Baru Buat User Root : " Pass
 
 # Starting Changes To Root
 rm -f /etc/ssh/sshd_config
